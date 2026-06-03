@@ -1,1 +1,1 @@
-print (round("what's x ?") round( what's y ?))
+print (float("what's x ?") + float( "what's y ?"))
