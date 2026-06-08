@@ -5,7 +5,7 @@ def main():
 
 
 def square(n):
-    return n*n
+    return n**2
 
 main()
 
