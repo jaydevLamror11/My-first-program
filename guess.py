@@ -1,5 +1,5 @@
 def get_guess():
-    guess = int(input("Enter a guess: "))
+    guess = float(input("Enter a guess: "))
     return guess
 
 
