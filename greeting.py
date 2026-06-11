@@ -6,5 +6,5 @@ def greet(input):
     
 
 
-greeting = greet("uff")
-print(" yoo," + greeting)
+greeting = greet("hello, computer")
+print(" yoo, " + greeting)
