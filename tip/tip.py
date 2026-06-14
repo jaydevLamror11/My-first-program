@@ -13,6 +13,6 @@ def dollars_to_float(d):
 
 
 def percent_to_float(p):
-    b = float(p.strip("%"))*float(0.01)
+    b = float(p.strip("%"))/100
     return b
 main()
