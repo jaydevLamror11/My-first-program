@@ -7,9 +7,9 @@ def main():
     face = emoji()
     if face == "Hello :)":
         print("Hello 🙂")
-    if face == "Goodbye :(":
+    elif face == "Goodbye :(":
         print("Goodbye 🙁")
-    if face == ("Hello :) Goodbye :("):
+    elif face == ("Hello :) Goodbye :("):
         print("Hello 🙂 Goodbye 🙁")
     else:
         print("I don't recognize that emoji text. ")
