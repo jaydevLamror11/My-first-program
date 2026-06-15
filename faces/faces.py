@@ -1,6 +1,6 @@
 
 def emogi():
-    face = input("yoo: ")
+    face = input("heey: ")
     return face
 
 def main():
