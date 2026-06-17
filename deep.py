@@ -1,14 +1,8 @@
-def universe():
-    uni = input("What is the answer to the great question of life , the Universe, and everythin? ")
-    return uni
 
+uni = input("What is the answer to the great question of life , the Universe, and everythin? ")
 
-def main():
-     uni = universe()
-     if uni == '42':
-         print("yes! 🙂")
-     else:
-         print("no 🙁")
-
-
-main()
+match uni:
+    case "42":
+        print ("yes! 🙂")
+    case _:
+        print("noo 🙁")
