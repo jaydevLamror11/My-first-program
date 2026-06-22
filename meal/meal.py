@@ -3,7 +3,7 @@ def main ():
 
     # convert the inpupt.
     # if the time is between 7:00 to 8:00 OR 7:00 a.m. to 8:00 a.m. it's breakfast time.
-    # if the time is between 12:00 to 13:00 OR 12:00 a.m. to 1:00 p.m. it's lunch time.
+    # if the time is between 12:00 to 13:00 OR 12:00 p.m. to 1:00 p.m. it's lunch time.
     # if the time is between 18:00 to 19:00 OR 6:00 p.m. to 7:00 p.m. it's dinner time.
 
     if 7 <= time <= 8:
