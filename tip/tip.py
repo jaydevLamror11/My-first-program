@@ -5,7 +5,7 @@ def main():
     tip = dollars * percent
     print(f"Leave ${tip:.2f}")
 
-#use strip  , float(d.removeprefix('$'))  , float(p.removesuffix('%'))
+#use .strip()  , float(d.removeprefix('$'))  , float(p.removesuffix('%'))
 
 def dollars_to_float(d):
     a = float(d.strip("$"))
