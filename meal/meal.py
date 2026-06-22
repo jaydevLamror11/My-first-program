@@ -16,7 +16,7 @@ def main ():
 def convert(time):
     # split the hours and minutes inputted by the user.
     # convert the hours and minutes into decimal/float values.
-    # return the str to main.
+    # return the result to main function.
     hours, minutes = time.split(":")
     hours = float(hours)
     minutes = float(minutes)/60
