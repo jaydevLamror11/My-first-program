@@ -1,4 +1,4 @@
 students = ["Hermione", "Harry", "Roy"]
 
-for i in range(len(students)):
-    print(i + 1, students[i])
+for j in range(len(students)):
+    print(j + 1, students[j])
