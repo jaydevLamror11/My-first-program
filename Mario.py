@@ -4,13 +4,10 @@ def main():
 def print_square(size):
     # For each row in square.
     for i in range(size):
-        # For each brick/column in row.
-        for j in range(size):
-            # print brick
-            print("#", end="")
-        print()
+        print_row(size)
 
-
+def print_row(width):
+    print("#" * width)
 
 
 main()
